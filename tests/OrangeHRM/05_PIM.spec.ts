@@ -8,7 +8,7 @@ test("OrangeHRM Dashboard", async ({ page }) => {
   await page
     .locator("//a[contains(@href,'/web/index.php/pim/viewPimModule')]")
     .click();
-
+  //Updated on 3/14/2026
   //clicked on job title
   await page.locator("form i").nth(2).click();
   await page.waitForTimeout(3000);
