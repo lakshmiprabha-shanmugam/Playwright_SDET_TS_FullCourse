@@ -1,7 +1,7 @@
 import { test, expect, Locator } from "@playwright/test";
 
 import { loginToOrangeHRM } from "./helpers/login";
-// practicing VS Code git features using teriminal
+// practicing VS Code git features using teriminal- Updated -updated2
 test("OrangeHRM Dashboard", async ({ page }) => {
   await loginToOrangeHRM(page);
 
