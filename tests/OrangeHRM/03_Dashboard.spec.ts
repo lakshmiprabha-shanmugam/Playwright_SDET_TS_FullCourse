@@ -1,7 +1,7 @@
 import { test, expect, Locator } from "@playwright/test";
 
 import { loginToOrangeHRM } from "./helpers/login";
-// practicing VS Code git features
+// practicing VS Code git my feature branch practice
 // Dashboard tests updated - branch practice
 test("OrangeHRM Dashboard", async ({ page }) => {
   await loginToOrangeHRM(page);
