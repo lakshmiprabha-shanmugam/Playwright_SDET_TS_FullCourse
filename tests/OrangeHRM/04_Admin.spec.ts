@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 import { loginToOrangeHRM } from "./helpers/login";
-
+// VS Code branch practice change
 test("OrangeHRM Dashboard", async ({ page }) => {
   await loginToOrangeHRM(page);
 
