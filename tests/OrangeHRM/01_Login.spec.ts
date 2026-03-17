@@ -7,7 +7,7 @@ page.getByPlaceholder() to locate an input by placeholder.
 page.getByAltText() to locate an element, usually image, by its text alternative.
 page.getByTitle() to locate an element by its title attribute.
 page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured). */
-
+// practicing VS Code git my feature branch practice
 test("Demo of Playwright Locator", async ({ page }) => {
   await page.goto(
     "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
